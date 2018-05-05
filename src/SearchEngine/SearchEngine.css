@@ -1,0 +1,170 @@
+.shift-left {
+  margin-left: -50px;
+}
+
+#select-category, #select-city, #select-date {
+  width: 193px;
+}
+
+#select-city {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.search-container {
+  padding-top: 80px;
+  padding-bottom: 100px;
+  text-align: center;
+}
+
+.search-form,
+.search-button {
+  border: none;
+  outline: none;
+}
+
+.search-form {
+  width: 88%;
+  padding: 10px;
+  border: 0;
+  border-right: 1px lightgrey solid;
+}
+
+.search-button {
+  width: 10%;
+  background-color: transparent;
+  font-size: 22px;
+  color: grey;
+}
+
+.glyphicon-search {
+  vertical-align: middle;
+}
+
+.search-form-wrapper {
+  width: 600px;
+  border-radius: 6px;
+  border: 1px solid lightgrey;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  background-color: white;
+}
+
+
+.search-background {
+  background-image: url('../../public/img/gdansk.jpg');
+  background-position-y: -200px;
+  background-size: cover;
+  opacity: 0.9;
+  width: 100%;
+}
+
+.caption-main,
+.caption-submain {
+  color: white;
+  font-weight: bold;
+  text-shadow: #333333 0px 0px 3px;
+}
+
+.caption-main {
+  font-size: 64px;
+}
+
+.caption-submain {
+  font-size: 30px;
+}
+
+.see-more-link-container {
+  text-align: center;
+}
+
+.see-more-link-caption:hover {
+  background-color: #f7f8f9;
+  border: 2px solid darkgrey;
+  color: grey;
+}
+
+.see-more-link-caption {
+  background-color: darkgrey;
+  border: 2px solid darkgrey;
+  color: white;
+  display: inline;
+  padding: 10px 5%;
+  font-weight: 500;
+  border-radius: 2px;
+  font-size: 22px;
+  font-family: Roboto, sans-serif;
+}
+
+.see-more-link:hover {
+  text-decoration: none;
+}
+
+.see-more-link {
+  position: relative;
+}
+
+.glyphicon-search {
+  font-size: 22px;
+}
+.filters-container{
+  padding-top: 10px;
+}
+.filters-chosen-category,
+.filters-chosen-place
+{
+  margin: 10px;
+  padding:10px;
+  color: white;
+  border-radius: 2px;
+  cursor: pointer;
+  font-size: 16px;
+}
+.filters-chosen-time{
+  margin: 10px;
+  padding:10px;
+  color: white;
+  border-radius: 2px;
+  cursor: pointer;
+  font-size: 16px;
+  background-color: #24b795;
+}
+
+.filters-intro{
+  margin-left: 60px;
+  font-size: 16px;
+}
+.error-message{
+  text-align: center;
+  font-size: 16px;
+}
+.events-header{
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: -20px;
+}
+
+@media screen and (max-width: 780px) {
+  .search-form-wrapper {
+    width: 300px;
+  }
+  .see-more-link-caption{
+   font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .search-form-wrapper {
+    width: 200px;
+  }
+
+  .search-form {
+    width: 70%;
+    border-right: none;
+    font-size: 12px;
+  }
+
+  .glyphicon-search {
+    font-size: 14px;
+  }
+}

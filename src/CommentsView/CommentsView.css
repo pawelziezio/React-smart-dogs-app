@@ -1,0 +1,39 @@
+.comments-displaying {
+  border-bottom: 1px solid gainsboro;
+  width: 80%;
+  padding: 10px;
+  font-family: Roboto, sans-serif;
+}
+
+.comments-table-content {
+  padding: 5px 0 5px;
+}
+
+h3.comments-add-header {
+  margin-top: 40px;
+}
+
+form.comments-inputs {
+  font-family: Roboto, sans-serif;
+
+}
+
+form.comments-inputs input, form.comments-inputs textarea {
+  border-radius: 2px;
+  margin-bottom: 24px;
+}
+
+form.comments-inputs button {
+  padding: 10px;
+  border-radius: 2px;
+  border: 2px solid #fd5d1d;
+  font-family: Roboto, sans-serif;
+  text-align: center;
+  background-color: transparent;
+}
+
+form.comments-inputs button:hover {
+  border: 2px solid lightsalmon;
+  color: darkgray;
+
+}

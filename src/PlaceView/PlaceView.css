@@ -1,0 +1,62 @@
+.place-main-image {
+  background-size: cover;
+  min-height: 430px;
+  background-position: center center;
+  margin-bottom: 100px;
+}
+
+.row.place-decriptionandevents-row {
+  margin-bottom: 100px;
+  box-sizing: content-box;
+}
+
+.place-description-header {
+  font-family: Roboto, sans-serif;
+  margin-top: 0;
+}
+
+div.place-description-buttons-col.col-sm-2 {
+  margin-right: -57px;
+}
+
+div.place-description-buttons {
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 2px;
+  border: 2px solid #fd5d1d;
+  font-family: Roboto, sans-serif;
+  text-align: center;
+  width: 93px;
+}
+
+.place-description-buttons > a, a.place-www {
+  color: black;
+}
+
+.place-description-buttons > a:hover, a.place-www:hover {
+  text-decoration: none;
+  color: darkgray;
+}
+
+div.place-description-buttons:hover {
+  border: 2px solid lightsalmon;
+}
+
+.row.place-events-list-row {
+  padding-top: 100px;
+  box-sizing: content-box;
+}
+
+h2.place-sections-header {
+  margin-top: 0;
+  padding-bottom: 20px;
+  font-family: Roboto, sans-serif;
+}
+
+.row#place-comments-view {
+  margin-top: 100px;
+}
+
+
+
+

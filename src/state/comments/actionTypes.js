@@ -1,0 +1,4 @@
+export const FETCH_COMMENTS__BEGIN = 'comments/FETCH_COMMENTS__BEGIN'
+export const FETCH_COMMENTS__END = 'comments/FETCH_COMMENTS__END'
+export const SUBMIT_COMMENTS__BEGIN = 'comments/SUBMIT_COMMENTS__BEGIN'
+export const SUBMIT_COMMENTS__END = 'comments/SUBMIT_COMMENTS__END'

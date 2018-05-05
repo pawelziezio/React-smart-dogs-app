@@ -1,0 +1,41 @@
+.single-event-container {
+  margin-top: 40px;
+}
+.event-img{
+  max-height: 560px;
+  max-width: 100%;
+  border-radius: 20px;
+  float: right;
+}
+.event-name {
+  margin-top: 0;
+}
+.event-date{
+  color: grey;
+}
+.event-price {
+  padding: 10px;
+  border: 2px solid darkgrey;
+  color: grey;
+  font-size: 20px;
+  border-radius: 2px;
+  font-family: Roboto, sans-serif;
+}
+.event-category{
+  padding: 12px;
+  background-color: #a9b9fc;
+  border-radius: 2px;
+  font-size: 20px;
+  color: white;
+  font-weight: 600;
+ }
+.event-description {
+  text-align: justify;
+  line-height: 24px;
+}
+.event-description-container{
+  margin: 20px;
+}
+.event-details{
+  margin-left: 20px;
+}
